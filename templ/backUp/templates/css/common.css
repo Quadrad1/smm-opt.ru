@@ -1,0 +1,42 @@
+html, body {
+	height: 100%;
+}
+body {
+	background-color: #f0f0f0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container {
+	max-width: 720px;
+	min-height: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0 0 50px 0 rgb(222,222,222);
+}
+header {
+	padding: 15px 0;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 34px;
+}
+header h3 {
+	margin: 0;
+	line-height: 34px;
+}
+.content {
+	margin: 20px 0;
+}
+.content > h3:first-child {
+	margin-bottom: 20px;
+	color: #d9534f;
+}
+.service_list > tbody > tr > td {
+	line-height: 30px;
+}
+.error {
+	color: red;
+	margin-top: 10px;
+}
+.account_infoblock {
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
